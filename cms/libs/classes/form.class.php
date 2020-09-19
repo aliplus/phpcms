@@ -141,7 +141,7 @@ class form {
 				'Directionalityltr', 'Directionalityrtl', 'Indent', '|',
 				'Justifyleft', 'Justifycenter', 'Justifyright', 'Justifyjustify', '|', 'Touppercase', 'Tolowercase', '|',
 				'Link', 'Unlink', 'Anchor', '|', 'Imagenone', 'Imageleft', 'Imageright', 'Imagecenter', '|',
-				'Simpleupload', 'Insertimage', 'Emotion', 'Scrawl', 'Insertvideo', 'Music', 'Attachment', 'Map', 'Insertframe', 'Insertcode'";
+				'Simpleupload', 'Insertimage', 'Emotion', 'Scrawl', 'Insertvideo', 'Attachment', 'Map', 'Insertframe', 'Insertcode'";
 				if ($show_page=="true") {
 					$toolbar .= ", 'PageBreak', 'Subtitle'";
 				}
