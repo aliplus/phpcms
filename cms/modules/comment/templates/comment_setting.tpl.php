@@ -22,11 +22,11 @@ include $this->admin_tpl('header', 'admin');
   </tr>
   <tr>
     <th width="120"><?php echo L('comments_on_points_awards')?>：</th>
-    <td class="y-bg"><input type="input" name="add_point" value="<?php echo  isset($data['add_point']) ? $data['add_point'] : '0'?>" /> <?php echo L('to_operate')?></td>
+    <td class="y-bg"><input type="text" name="add_point" value="<?php echo  isset($data['add_point']) ? $data['add_point'] : '0'?>" /> <?php echo L('to_operate')?></td>
   </tr>
   <tr>
     <th width="120"><?php echo L('be_deleted_from_the_review_points')?>：</th>
-    <td class="y-bg"><input type="input" name="del_point" value="<?php echo  isset($data['del_point']) ? $data['del_point'] : '0'?>" /> <?php echo L('to_operate')?></td>
+    <td class="y-bg"><input type="text" name="del_point" value="<?php echo  isset($data['del_point']) ? $data['del_point'] : '0'?>" /> <?php echo L('to_operate')?></td>
   </tr>
 </table>
 
